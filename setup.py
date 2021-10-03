@@ -47,7 +47,7 @@ with open("README.rst") as fp:
 # =============================================================================
 
 setup(
-    name="AutoDocs",
+    name="autodoc",
     version=VERSION,
     description="Acerca de AutoDoc",
     long_description=LONG_DESCRIPTION,
@@ -55,7 +55,7 @@ setup(
     author="Ferreira, Juan David",
     author_email="juniors9a0@gmail.com",
     url="https://github.com/juniors90/notasautodoc",
-    packages=[],
+    packages=["autodoc"],
     license="The MIT License",
     install_requires=REQUIREMENTS,
     keywords=["GAP Programming Language", "Groups", "AutoDoc Package"],
