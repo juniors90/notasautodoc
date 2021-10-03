@@ -10,19 +10,21 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
+import datetime
 # import os
+# import pathlib
 # import sys
-# sys.path.insert(0, os.path.abspath('.'))
 
+# sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
 project = 'AutoDoc: Documentación a partir del código fuente de GAP'
-copyright = '2021, Ferreira, Juan David'
+copyright = f'{datetime.date.today().year}, Ferreira, Juan David'
 author = 'Ferreira, Juan David'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = "0.1.0"
 
 
 # -- General configuration ---------------------------------------------------

@@ -31,9 +31,9 @@ PATH = pathlib.Path(os.path.abspath(os.path.dirname(__file__)))
 
 REQUIREMENTS = []
 
-with open(PATH / "docs" / "source" / "conf.py") as fp:
+with open(PATH / "autodoc" / "__init__.py") as fp:
     for line in fp.readlines():
-        if line.startswith("release = "):
+        if line.startswith("__version__ = "):
             VERSION = line.split("=", 1)[-1].replace('"', "").strip()
             break
 
