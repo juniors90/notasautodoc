@@ -7,7 +7,7 @@ docs/build
 # Unit test / coverage reports
 htmlcov/
 .tox/
-
+AutoDocs-0.1.0/
 # Distribution / packaging
 .Python
 .coverage
