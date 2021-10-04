@@ -1,3 +1,5 @@
+﻿.. -*- coding: utf-8 -*-
+
 Introducción a AutoDoc
 ==================================
 

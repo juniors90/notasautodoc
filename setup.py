@@ -31,14 +31,14 @@ PATH = pathlib.Path(os.path.abspath(os.path.dirname(__file__)))
 
 REQUIREMENTS = []
 
-with open(PATH / "autodoc" / "__init__.py") as fp:
+with open(PATH / "autodoc" / "__init__.py",newline='', encoding="utf-8") as fp:
     for line in fp.readlines():
         if line.startswith("__version__ = "):
             VERSION = line.split("=", 1)[-1].replace('"', "").strip()
             break
 
 
-with open("README.rst") as fp:
+with open(r'README.rst', encoding="utf-8") as fp:
     LONG_DESCRIPTION = fp.read()
 
 
